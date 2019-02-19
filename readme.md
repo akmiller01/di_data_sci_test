@@ -20,3 +20,7 @@ You may submit your answers in code in the form of a forked repository, or via a
 1. If you extract this zip file, you will find a text file which represents the raw Creditor Reporting System data for 2010. How many rows have either a `LongDescription` or a `ShortDescription` that contains the word `"vaccine"`?
 2. What is the total US Dollar Deflated (`usd_disbursement_defl`) for flows from (`DonorName`) the US to (`RecipientName`) Uganda?
 
+## `test_data/dfid-ug.xml`
+
+1. How many children (IATI activities) does the root XML node have?
+2. What is the sum of the elements with the xpath `iati-activity/transaction/value`?
